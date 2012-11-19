@@ -1,0 +1,31 @@
+/**
+ * Blueprint hack
+ */
+.container {margin:0;}
+img { line-height:0px; }
+.box { background:none; padding:10px 10px 0px 10px;}
+.showgrid { background: url(../img/grid.png) repeat; }
+.span-offset-1 {margin:0 10px 0 -10px; width:10px;}
+.span-offset-2 {margin:0 10px 0 -10px; width:80px;}
+.span-offset-3 {margin:0 10px 0 -10px; width:120px;}
+.span-offset-4 {margin:0 10px 0 -10px; width:160px;}
+.span-offset-5 {margin:0 10px 0 -10px; width:200px;}
+.span-offset-6 {margin:0 10px 0 -10px; width:240px;}
+.span-offset-7 {margin:0 10px 0 -10px; width:280px;}
+.span-offset-8 {margin:0 10px 0 -10px; width:320px;}
+.span-offset-9 {margin:0 10px 0 -10px; width:360px;}
+.span-offset-10 {margin:0 10px 0 -10px; width:400px;}
+.span-offset-11 {margin:0 10px 0 -10px; width:440px;}
+.span-offset-12 {margin:0 10px 0 -10px; width:480px;}
+.span-offset-13 {margin:0 10px 0 -10px; width:520px;}
+.span-offset-14 {margin:0 10px 0 -10px; width:560px;}
+.span-offset-15 {margin:0 10px 0 -10px; width:600px;}
+.span-offset-16 {margin:0 10px 0 -10px; width:640px;}
+.span-offset-17 {margin:0 10px 0 -10px; width:680px;}
+.span-offset-18 {margin:0 10px 0 -10px; width:720px;}
+.span-offset-19 {margin:0 10px 0 -10px; width:760px;}
+.span-offset-20 {margin:0 10px 0 -10px; width:800px;}
+.span-offset-21 {margin:0 10px 0 -10px; width:840px;}
+.span-offset-22 {margin:0 10px 0 -10px; width:880px;}
+.span-offset-23 {margin:0 10px 0 -10px; width:920px;}
+.span-offset-24 {margin:0 10px 0 -10px; width:970px;margin-right:0;}

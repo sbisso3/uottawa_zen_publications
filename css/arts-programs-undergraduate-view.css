@@ -1,0 +1,18 @@
+
+
+div.view-arts-programs  table.views-view-grid  {
+	width: 25%;
+	float: left;
+	margin-top: 50px;
+	margin-left: -220px;
+}
+
+.field-name-field-arts-tag {
+	width: 220px;
+}
+
+div.view-arts-programs h3  {
+	width: 220px;
+	float: left;
+}
+

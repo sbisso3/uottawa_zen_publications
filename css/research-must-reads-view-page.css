@@ -1,0 +1,19 @@
+.view-must-reads  .item-list ul li.views-row {
+	background: none;
+	margin-bottom: 30px;
+}
+
+.view-must-reads  .item-list ul li.views-row .field-type-image img {
+	width: 200px;
+	height: 100px;
+	margin-left: 0px;
+}
+
+.view-must-reads  a {
+	text-decoration: none;
+	color: #8F001A;
+}
+
+.view-must-reads  a:hover {
+	color: #434343;
+}

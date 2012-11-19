@@ -1,0 +1,28 @@
+#site-id h1 {
+  color: #8F001A;
+}
+#site-nav ul.menu {
+  border-bottom-color: #8F001A;
+}
+#page-container #box-container #site-nav ul.menu li a {
+  color: #72634D;
+}
+h2.pane-title {
+  color: #8F001A;
+}
+#contact_footer h2 {
+  color: #8F001A;
+}
+.contact_footer_highlight {
+  background-color: #8F001A;
+  color: #FFF;
+}
+
+
+
+
+/* Style added by Stephane which directly affect assets templates */
+a.back-to-top:after {
+  background-color: #8F001A; /*backToTop Module*/
+}
+/* /Styles added by Stephane*/

@@ -1,0 +1,14 @@
+.view-research-videos table {
+	width: 60%;
+}
+
+.view-research-videos .views-field-title a {
+	text-decoration: none;
+	color: #8F001A;	
+}
+
+.view-research-videos .views-field-title a:hover {
+	color: #434343;
+}
+
+

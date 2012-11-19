@@ -1,0 +1,6 @@
+/**
+ * feature in sidebar-right region
+ */
+#sidebar-right a.feature { 
+	margin-bottom: -2px;
+}

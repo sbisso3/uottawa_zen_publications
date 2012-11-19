@@ -1,0 +1,94 @@
+#site-search
+{
+	width: 230px;
+	height: 59px;
+	background-color: #8f8174;
+	position: relative;
+	margin-bottom: 1px;
+}
+
+.uo-search-form label
+{
+	text-indent: -10000px;
+	width: 0px;
+	height: 0px;
+	display: block;
+	line-height: 0px;
+}
+
+#site-search #site-search-words
+{
+	position: absolute;
+	top: 17px;
+	left: 19px;
+	width: 170px;
+	margin: 0px;
+	height: 20px;
+	line-height: 20px;
+}
+#site-search #site-search-label
+{
+	display: none;
+	font-weight:normal;
+	overflow: hidden;
+	top: 21px;
+	left: 21px;
+	width: 168px;
+	height: 20px;
+	position: absolute;
+	cursor: text;
+	z-index: 10;
+	color: #bbb;
+}
+#site-search #site-search-label.empty
+{
+	display: block;
+}
+
+#site-search #site-search-submit
+{
+	border: 1px solid #a2978c;
+	width: 22px;
+	height: 24px;
+	position: absolute;
+	top: 17px;
+	left: 191px;
+	background-color: transparent;
+	background: url(../../global/img/sprite.png) no-repeat top left;
+	display: block;
+	cursor: pointer;
+	text-indent: -10000px;
+}
+
+.uo-search-form input, .uo-search-form select
+{
+	display: block;
+	float: left;
+	margin: 0px;
+	height: 18px;
+	line-height: 1;
+}
+
+.uo-search-form select {
+	height: 22px;
+	line-height: 1;
+}
+
+.uo-search-form .uo-search-submit
+{
+	border: none;
+	height: 22px;
+	width: 22px;
+	padding: 0;
+	margin: 0;
+	background-color: transparent;
+	background: url(../../global/img/sprite.png) no-repeat top left;
+	display: block;
+	cursor: pointer;
+	text-indent: -10000px;
+}
+
+/* HTML5 placeholder colour fix for Firefox */
+input:-moz-placeholder {
+	color: #bbb;
+}

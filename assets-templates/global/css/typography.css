@@ -1,0 +1,57 @@
+ul
+{
+	padding:0;
+	list-style-type:none;
+}
+
+ul li {
+	background: url(../img/bullet.png) no-repeat 5px 0.5em;
+	padding-left:20px;
+}
+
+ul li
+, ul li li
+, ul li li li
+, ol ul li
+, ol ol ul li
+, ol ol ol ul li {
+	list-style-type: none;
+}
+
+ol li
+, ol ol li
+, ol ol ol li {
+	list-style-type: decimal;
+}
+
+dt
+, th
+, thead
+, tfoot {
+	color: #222;
+}
+
+.large {
+	line-height: 1.5em;
+}
+
+img.floatLeft
+{
+	float:left;
+	margin:0 10px 10px 0;
+}
+
+img.floatRight
+{
+	float:right;
+	margin:0 0 10px 10px;
+}
+
+img.boxed {
+	padding:4px;
+	border:1px solid #ccc;
+}
+
+a:link, a:visited {
+	text-decoration:underline;
+}

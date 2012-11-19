@@ -1,0 +1,6 @@
+/* fixes for ie6 */
+#site-search #site-search-submit {
+  left: 194px;
+  height: 26px;
+  background-position-y: 0;
+}

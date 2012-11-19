@@ -1,0 +1,25 @@
+div.view-research-news-and-events-list-view {
+	margin-left: 0px;
+}
+
+.view-research-news-and-events-list-view .views-field.views-field-title {
+	border-top: 1px solid #434343;
+	padding-left: 5px;
+}
+
+.view-research-news-and-events-list-view  .views-row.views-row-1.views-row-odd.views-row-first div.views-field.views-field-title  {
+	border-top:0px;
+	margin-top: -5px;
+}
+
+.view-research-news-and-events-list-view a {
+	font-size: 8pt;
+	text-decoration:none;
+	color: #8F001A;
+	font-size:8pt;
+	line-height: 33px;
+}
+
+.view-research-news-and-events-list-view a:hover {
+	color: #434343;
+}

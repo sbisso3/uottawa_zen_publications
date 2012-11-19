@@ -1,0 +1,8 @@
+/**
+ * feature in sidebar-right region
+ */
+#sidebar-right a.feature {
+	display:block;
+	margin-bottom:1px;
+	line-height:0px;
+}

@@ -1,0 +1,42 @@
+ul.top-task-list {
+	list-style: none;
+	background: none;
+	margin: 0;
+	padding: 0;
+	height: 270px;
+}
+
+ul.top-task-list li {
+	background: none;
+	border-bottom: 1px solid #ccc;	
+}
+
+ul.top-task-list li.first {
+	border-top: 1px solid #ccc;
+	padding-left: 13px;
+	padding-top: 0.2em;
+    line-height: 45px;
+}
+
+ul.top-task-list li select {
+	margin-top: 9px;
+	margin-bottom: 9px;
+}
+
+ul.top-task-list li {
+	padding-left: 14px;
+}
+
+ul.top-task-list li a {
+	text-decoration:none;
+	color: #880022;
+	font-weight:bold;
+	font-size:9pt;
+	line-height: 43px;
+}
+
+ul.top-task-list li a:hover {
+	text-decoration:none;
+	color: #880022;
+
+}

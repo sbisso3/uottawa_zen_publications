@@ -1,0 +1,6 @@
+/* ie7 fixes for siteSearch */
+#site-search #site-search-submit {
+  font-size: 0;
+  line-height: 0;
+  background-position-y: -2px;
+}

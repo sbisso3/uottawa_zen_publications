@@ -1,0 +1,76 @@
+/* $id$ */
+/**
+ * @file siteID.css
+ * module : siteID
+ */
+#section-header, #section-top {
+	width:970px;
+	margin-left:-10px;
+}
+#section-header #parent-org-title {
+	width:100%;
+	height:19px;
+	background-color:#c3bcb4;
+	border-bottom:1px solid #fff;
+	line-height:19px;
+}
+#parent-org-title:empty {
+	height:0px;
+}
+#site-id {
+	position:relative;
+	line-height:0px;
+	margin-bottom:18px;
+	background-repeat: no-repeat;
+}
+
+#site-id h1 {
+	text-indent:-10000px;
+	line-height:0px;
+	background-repeat: no-repeat;
+}
+
+#parent-org-title a, #parent-org-title a:link, #parent-org-title a:visited {
+	background:url(../img/arrows.jpg) no-repeat 0px 4px;
+	color: #fff;
+	margin-left:10px;
+	text-decoration:none;
+	padding:1px 0 0 17px;
+	outline:none;
+	text-transform: uppercase;
+}
+ #parent-org-title a:hover {
+	text-decoration:underline;
+}
+
+#section-header #site-id {
+	width:100%;
+	height:121px;
+	border-bottom:1px solid #fff;
+}
+#site-id a, #site-id a:link {
+	position:relative;
+	display:block;
+	text-indent:-10000px;
+	outline:none;
+	background-repeat: no-repeat;
+}
+
+/* Theme colours */
+
+.light #site-id {
+	background-color: none;
+}
+
+/* Unless .light is used, .dark is assumed and use the theme color for the site-id background */
+
+.theme-01 #site-id { background-color: #741026; }
+.theme-02 #site-id { background-color: #d5a737; }
+.theme-03 #site-id { background-color: #90ab5a; }
+.theme-04 #site-id { background-color: #3887b0; }
+.theme-05 #site-id { background-color: #da8439; }
+.theme-06 #site-id { background-color: #447646; }
+.theme-07 #site-id { background-color: #326F88; }
+.theme-08 #site-id { background-color: #a5591d; }
+.theme-09 #site-id { background-color: #87944a; }
+.theme-10 #site-id { background-color: #5e2f24; }

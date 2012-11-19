@@ -1,0 +1,180 @@
+#main-content #panels-ipe-display-panel-context-page-arts-programs-undergraduate-page-arts-programs-undergraduate-panel-context h1 {
+	border: 0px;
+	border-left: 5px solid #8F001A;
+	width: 400px;
+	padding: 0px;
+	padding-left: 16px;
+	margin-left: 38px;
+	margin-bottom: 12px;
+	display: block;
+}
+
+#phoenix-left .pane-arts-programs h2.pane-title {
+	width: 200px;
+	margin-left: 28px;
+}
+
+#phoenix-left .form-item-jump select {
+	margin-bottom: 20px;
+}
+
+#phoenix-left .pane-menu-arts-program-undergrad-grad h2.pane-title {
+	visibility: hidden;
+}
+
+#phoenix-left .menu-name-menu-arts-program-undergrad-grad ul {
+	margin-left: 27px;
+	margin-bottom: 6px;
+	margin-top: -22px
+}
+
+#phoenix-left .menu-name-menu-arts-program-undergrad-grad ul li{
+	display: inline;
+	list-style-image: none;
+	list-style-type: none;
+	background: none;
+	padding-top: 8px;
+	padding-bottom: 9px;
+	padding-left: 12px;
+	padding-right: 12px;
+}
+
+#phoenix-left .menu-name-menu-arts-program-undergrad-grad ul li a {
+	text-decoration: none;
+	text-align: center;
+	color: #fff;
+	font-size: 8pt;
+	font-weight: bold;
+}
+
+#phoenix-left .menu-name-menu-arts-program-undergrad-grad ul li.first {
+	background-color: #8F001A;
+	-webkit-border-top-left-radius: 15px;
+	-moz-border-top-left-radius: 15px;
+	border-top-left-radius: 15px;
+	-webkit-border-top-right-radius: 15px;
+	-moz-border-top-right-radius: 15px;
+	border-top-right-radius: 15px;
+}
+
+#phoenix-left .menu-name-menu-arts-program-undergrad-grad ul li.last {
+	background-color: #434343;
+	-webkit-border-top-left-radius: 15px;
+	-moz-border-top-left-radius: 15px;
+	border-top-left-radius: 15px;
+	-webkit-border-top-right-radius: 15px;
+	-moz-border-top-right-radius: 15px;
+	border-top-right-radius: 15px;
+}
+
+#phoenix-left  .view-arts-programs .item-list h3 {
+	font-size: 8pt;
+	/*text-align: center;*/
+	/*margin-left: -26px;*/
+	background: #880022;
+	padding-bottom: 10px;
+	padding-top: 10px;
+}
+
+#phoenix-left  .view-arts-programs .item-list h3 a {
+	color: #fff;
+	text-decoration: none;
+}
+
+#phoenix-left  .view-arts-programs .item-list {
+	margin-right: -11px;
+}
+
+#phoenix-left  .view-arts-programs .item-list ul {
+	float: left;
+	padding-left: 0px;
+	list-style-type: none;
+	width: 100%;
+	border-collapse: collapse;
+	margin-top: 0px;
+
+	border-right: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+}
+
+#phoenix-left  .view-arts-programs .item-list ul  li {
+
+	font-size: 8pt;
+}
+
+#phoenix-left .pane-joint-honours-ba-programs h2.pane-title {
+	margin-left: 28px;
+}
+
+#phoenix-left .pane-joint-honours-ba-programs ul {
+	float: left;
+	padding-left: 0px;
+	margin-top: 0px;
+	border: 1px solid #ccc;
+}
+
+#phoenix-left .pane-joint-honours-ba-programs ul li {
+	border-bottom: 1px solid #ccc;
+	border-collapse: collapse;
+	font-size: 8pt;
+}
+
+#phoenix-left .pane-joint-honours-ba-programs ul li.views-row-last {
+	border-bottom: 0px;
+}
+
+
+#phoenix-left select {
+	margin-left: -11px;
+}
+
+#phoenix-right h3 {
+	text-align: center;
+	color: #fff;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	margin-left: 30px;
+	margin-right: 20px;
+	margin-bottom: 30px;
+	padding-right: -10px;
+	background-color: #880022;
+}	
+
+#phoenix-right h4 {
+	margin-left: 50px;
+	font-size: 8pt;
+}
+
+#phoenix-right p {
+	margin-left: 50px;
+	margin-right: 50px;
+	font-size: 8pt;	
+}
+
+
+
+
+
+
+
+/*
+
+div.view-arts-programs table.views-view-grid  {
+	width: 30%;
+	float: left;
+	margin-top: 20px;
+
+	/*margin-left: -220px;*/
+
+}*/
+/*
+#phoenix-left .field-name-field-arts-tag {
+	width: 220px;
+}
+*/
+/*
+#phoenix-left div.view-arts-programs h3  {
+	width: 220px;
+	font-size: 8pt;
+	float: left;
+}*/

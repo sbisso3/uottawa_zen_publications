@@ -1,0 +1,76 @@
+/* $id$ */
+
+/**
+ * @file default.css
+ * module : global
+ * This CSS file controls
+ * - centered layout
+ * - first elements of the page
+ * - language link
+ * - override some default blueprint styles
+ */
+
+html { background: url(../img/gradient_png24.png) repeat-x; }
+
+body
+{
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	margin:0;
+	padding:0;
+}
+
+#box-container {
+    padding: 5px;
+    box-sizing: border-box;
+    background : url(../img/responsive_drop_shadow_top_left.png) left top no-repeat,
+                 url(../img/responsive_drop_shadow_top_right.png) top right no-repeat,
+                 url(../img/responsive_drop_shadow_bottom_left.png) bottom left no-repeat,
+                 url(../img/responsive_drop_shadow_bottom_right.png) bottom right no-repeat,
+                 url(../img/responsive_drop_shadow_top.png) repeat-x,
+                 url(../img/responsive_drop_shadow_bottom.png) bottom repeat-x,
+                 url(../img/responsive_drop_shadow_left.png) left repeat-y,
+                 url(../img/responsive_drop_shadow_right.png) right repeat-y;
+}
+
+@media (min-width: 1000px) {
+	#page-container{width: 980px;}
+}
+
+@media (min-width: 761px) and (max-width: 999px) {
+	#page-container{width: 710px;}
+}
+
+@media (min-width: 481px) and (max-width: 760px) {
+	#page-container{width: 390px;}
+}
+
+@media (min-width: 0px) and (max-width: 480px) {
+	#page-container{width: 310px;}	
+}
+
+
+/**
+ * Beta
+ */
+
+#beta {
+	background: url("../img/beta.png") no-repeat 0 0;
+	display:block;
+	position:fixed;
+	top:0;
+	left:0;
+	width:96px;
+	height:96px;
+	text-indent:-10000px;
+	z-index:50000;
+}
+/**
+ * Anchors used with the page-links tools
+ * and back-to-top tools
+ */
+
+#skip-to-content, #skip-to-localnav, #skip-to-leftnav
+{
+	position: absolute;
+	text-indent: -999em;
+}

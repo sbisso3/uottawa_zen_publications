@@ -1,0 +1,26 @@
+.contact_footer_box h2 {
+  float: left;
+  clear: left;
+}
+.contact_footer_box {
+  width: 180px;
+  float: left;
+  margin-right: 5px;
+}
+#contact_footer {
+  position: relative;
+  height: 100px;
+}
+.contact_footer_info {
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+}
+.contact_footer_highlight {
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+  height: 70px;
+  width: 180px;
+  padding: 10px;
+}

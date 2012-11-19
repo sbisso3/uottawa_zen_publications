@@ -1,0 +1,29 @@
+#bluebird-section-right .view-research-videos table {
+	width: 100%;
+	margin-left: 0px;
+}
+
+#bluebird-section-right .view-research-videos table td {
+	border: 0px;
+	padding: 0px;
+}
+
+#bluebird-section-right .view-research-videos table td  img {
+	width: 140px;
+	height: 85px;
+	margin-bottom: 0px;
+}
+#bluebird-section-right .view-research-videos .views-field-title {
+	margin-bottom: 13px;
+}
+
+#bluebird-section-right .view-research-videos .views-field-title a {
+	text-decoration: none;
+	color: #8F001A;	
+}
+
+#bluebird-section-right .view-research-videos .views-field-title a:hover {
+	color: #434343;
+}
+
+

@@ -1,0 +1,19 @@
+/**
+ * top-nav
+ */
+
+#section-top ul#global-nav li a
+, #section-top ul#global-nav li a:link
+, #section-top ul#global-nav li a:visited
+, #section-top ul#top-nav li a
+, #section-top ul#top-nav li a:link
+, #section-top ul#top-nav li a:visited {
+	white-space: nowrap;
+	width: 1%;
+}
+
+#sidebar-left local-nav
+, #sidebar-left ul.nav
+, #sidebar-left ul#left-nav {
+	margin-left: 10px;
+}

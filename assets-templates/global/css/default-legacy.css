@@ -1,0 +1,87 @@
+/* $id$ */
+
+/**
+ * @file default.css
+ * module : global
+ * This CSS file controls
+ * - centered layout
+ * - first elements of the page
+ * - language link
+ * - override some default blueprint styles
+ */
+
+html { background: url(../img/gradient_png24.png) repeat-x; }
+
+body
+{
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	background: url(../img/drop_shadow_top_png_24.png) no-repeat center 76px;
+	margin:0;
+	padding:0;
+}
+
+/**
+ * override some blueprint styles
+ */
+h1, h2, h3, h4, h5, h6 {color:#918b86;}
+h1 {font-size:2.5em;}
+
+#main-content h1 {
+	margin: 1em 0 0.5em;
+}
+
+/* Blueprint 1.0.1 introduced a new default rule for tables this should disable it */
+tbody tr:nth-child(even) td, tbody tr.even td {
+	background: none;
+}
+
+
+/**
+ * layout and background
+ */
+#main-container { position: relative; }
+
+#section-container
+{
+	background: url(../img/main-background_png24.png) repeat-y center 80px;
+	position: relative;
+	z-index: 10;
+}
+
+#main-banner {
+	z-index: 3000;
+	height: 81px;
+	margin: 0px;
+	padding: 0px;
+	width: 970px;
+	margin: 0px auto;
+	position: relative;
+	display: block;
+}
+
+#wrapper
+{
+	margin: 0px auto;
+	width:960px;
+	padding-left:10px;
+}
+
+#section-closure
+{
+	display: block;
+	background: url(../img/drop_shadow_bottom_png_24.png) no-repeat center top;
+	height: 15px;
+	clear: both;
+	position: relative;
+}
+
+/**
+ * Anchors used with the page-links tools
+ * and back-to-top tools
+ */
+
+#skip-to-content, #skip-to-localnav, #skip-to-leftnav
+{
+	position: absolute;
+	text-indent: -999em;
+}

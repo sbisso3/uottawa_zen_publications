@@ -1,0 +1,80 @@
+/**** Styles for tabbed interface slideshow ****/
+
+
+div.uottawa-slideshow {
+	width: 730px;
+	height: 270px;
+	position: relative;
+}
+
+div.uottawa-slideshow h2 {
+	visibility: hidden;
+}
+
+div.ipe_tabs_interface.tabs-style-3.wet-boew-tabbedinterface {
+	padding:0;
+	border:0;
+}
+
+div.uottawa-slideshow div.tabs-style-3 .tabs-panel {
+	border:0;
+}
+
+div.uottawa-slideshow img.slider {
+	width: 480px;
+	height: 270px;
+	float: left;
+	margin-left: 0px;
+}
+
+div.uottawa-slideshow div {
+	/*width: 480px;*/
+	height: 270px;
+	margin-left: 0px;
+}
+
+div.uottawa-slideshow ul.tabs{
+	visibility: hidden;
+}
+
+div.uottawa-slideshow ul.tabs li.tabs-toggle{
+	visibility: visible;
+	font-size:10px;
+	padding-top: 114px;
+	padding-left:0;
+}
+
+div.uottawa-slideshow div.tabs-content-pad {
+	background-color: rgba(143,0,26,1);
+	position: absolute;
+	width: 230px;
+	height: 250px;
+	top: 0;
+	right: 0;
+	text-align: left;
+	padding: 10px;
+}
+
+div.uottawa-slideshow div.tabs-content-pad h4{
+	font-size: 24px;
+	font-weight: normal;
+}
+
+div.uottawa-slideshow div.tabs-content-pad a {
+	color: #fff;
+	text-decoration: none;
+}
+
+div.uottawa-slideshow div.tabs-content-pad p {
+	font-size: 11px;
+	color: #fff;
+}
+/*
+div.uottawa-slideshow li.tabs-toggle {
+	font-size: 10px;
+}*/
+
+
+/**** End of Styles for tabbed interface slideshow ****/
+
+

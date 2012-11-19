@@ -1,0 +1,36 @@
+#bluebird-bottom-left h2.pane-title {
+	margin-bottom: -16px;
+	margin-top: -10px;
+}
+
+#bluebird-bottom-left ul {
+	margin-left: -28px;
+}
+
+#bluebird-bottom-left ul li{
+	float: left;
+	margin: 0px;
+	margin-right: -1px;
+	margin-bottom: -2px;
+}
+
+#bluebird-bottom-left.view-must-reads  .item-list ul li.views-row {
+	background: none;
+	margin-bottom: 30px;
+}
+
+#bluebird-bottom-left .view-must-reads  .item-list ul li.views-row .field-type-image img {
+	width: 136px;
+	height: 85px;
+	margin-left: 0px;
+}
+
+#bluebird-bottom-left.view-must-reads  a {
+	text-decoration: none;
+	color: #8F001A;
+	
+}
+
+#bluebird-bottom-left.view-must-reads  a:hover {
+	color: #434343;
+}

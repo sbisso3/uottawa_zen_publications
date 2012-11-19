@@ -1,0 +1,495 @@
+/**
+ * top-nav
+ */
+#section-top {
+	position:relative;
+	margin-top:-18px;
+}
+#section-top #top-nav {
+	height: 32px;
+	width: 970px;
+	margin-left: -10px;
+}
+
+#section-top ul#top-nav {
+	list-style-type: none;
+	width: 970px;
+	overflow: hidden;
+	margin: 0;
+	padding: 0;
+}
+
+#section-top ul#top-nav li {
+	float: left;
+	padding: 0;
+	background: none;
+}
+
+#section-top ul#top-nav li a
+, #section-top ul#top-nav li a:link
+, #section-top ul#top-nav li a:visited {
+	padding: 0px 15px;
+	height: 32px;
+	display: block;
+	text-decoration: none;
+	font-size: 12px;
+	font-weight: bold;
+	line-height: 32px;
+	outline: none;
+}
+
+#section-top ul#top-nav li.first a
+, #section-top ul#top-nav li.first a:link {
+	padding-left: 10px;
+}
+
+/* global nav - light */
+.light #section-top ul#top-nav {
+	background-color: #f4f3f1;
+}
+
+.light #section-top ul#top-nav li a
+, .light #section-top ul#top-nav li a:link
+, .light #section-top ul#top-nav li a:visited
+, .light #section-top ul.nav li a
+, .light #section-top ul.nav li a:link
+, .light #section-top ul.nav li a:visited  {
+	color: #000;
+}
+.light #section-top ul#top-nav li a:hover
+, .light #section-top ul#top-nav li a:focus
+, .light #section-top ul#top-nav li a:active {
+	background-color: #eceaea;
+	color: #000;
+}
+
+.light #section-top ul#top-nav li.current a
+, .light #section-top ul#top-nav li.current a:link
+, .light #section-top ul#top-nav li.current a:visited {
+	background-color: #d9dbdb;
+	color: #000;
+}
+
+/* global nav - dark (by default if neither dark nor light are used) */
+.dark #section-top ul#top-nav
+, #section-top ul#top-nav {
+	background-color: #695d54;
+}
+
+.dark #section-top ul#top-nav li a
+, .dark #section-top ul#top-nav li a:link
+, .dark #section-top ul#top-nav li a:visited
+, .dark #section-top ul.nav li a
+, .dark #section-top ul.nav li a:link
+, .dark #section-top ul.nav li a:visited
+, #section-top ul#top-nav li a
+, #section-top ul#top-nav li a:link
+, #section-top ul#top-nav li a:visited
+, #section-top ul.nav li a
+, #section-top ul.nav li a:link
+, #section-top ul.nav li a:visited {
+	color: #fff;
+}
+
+.dark #section-top ul#top-nav li a:hover
+, .dark #section-top ul#top-nav li a:focus
+, .dark #section-top ul#top-nav li a:active
+, #section-top ul#top-nav li a:hover
+, #section-top ul#top-nav li a:focus
+, #section-top ul#top-nav li a:active {
+	background-color: #554A43;
+	color: #fff;
+}
+
+.dark #section-top ul#top-nav li.current a
+, .dark #section-top ul#top-nav li.current a:link
+, .dark #section-top ul#top-nav li.current a:visited
+, #section-top ul#top-nav li.current a
+, #section-top ul#top-nav li.current a:link
+, #section-top ul#top-nav li.current a:visited {
+	background-color: #fff;
+	color: #695d54;
+}
+
+/** local nav in sidebar-left **/
+#sidebar-left ul#local-nav
+, #sidebar-left ul#left-nav
+, #sidebar-left ul.nav {
+	margin: 0;
+	padding: 0;
+	background: url(../img/ul.png) repeat-y;
+	width: 210px;
+}
+
+#sidebar-left ul#local-nav li
+, #sidebar-left ul#left-nav li
+, #sidebar-left ul.nav li {
+	list-style-type: none;
+	background: none;
+	margin: 0;
+	padding: 0;
+}
+
+#sidebar-left ul#local-nav li a
+, #sidebar-left ul#local-nav li a:link
+, #sidebar-left ul#local-nav li a:visited
+, #sidebar-left ul#left-nav li a
+, #sidebar-left ul#left-nav li a:link
+, #sidebar-left ul#left-nav li a:visited
+, #sidebar-left ul.nav li a
+, #sidebar-left ul.nav li a:link
+, #sidebar-left ul.nav li a:visited {
+	display: block;
+	margin: 0;
+	padding: 0.6em 20px 0.6em 10px;
+	width: 190px;
+	border-bottom: 1px solid #fff;
+	line-height: 1;
+	text-decoration: none;
+	color: #695d54;
+	outline: none;
+}
+
+#sidebar-left ul#local-nav li a:hover, #sidebar-left ul#left-nav li a:hover, #sidebar-left ul.nav li a:hover  { text-decoration: underline; }
+#sidebar-left ul#local-nav li.current a
+, #sidebar-left ul#local-nav li.current a:link
+, #sidebar-left ul#left-nav li.current a
+, #sidebar-left ul#left-nav li.current a:link
+, #sidebar-left ul.nav li.current a
+, #sidebar-left ul.nav li.current a:link {
+	font-weight: bold;
+}
+
+#sidebar-left ul#local-nav li.current ul li a
+, #sidebar-left ul#local-nav li.current ul li a:link
+, #sidebar-left ul#left-nav li.current ul li a
+, #sidebar-left ul#left-nav li.current ul li a:link
+, #sidebar-left ul.nav li.current ul li a
+, #sidebar-left ul.nav li.current ul li a:link {
+	font-weight: normal;
+}
+
+/** new-group **/
+#sidebar-left ul#local-nav li.new-group a
+, #sidebar-left ul#local-nav li.new-group a:link
+, #sidebar-left ul#left-nav li.new-group a
+, #sidebar-left ul#left-nav li.new-group a:link
+, #sidebar-left ul.nav li.new-group a
+, #sidebar-left ul.nav li.new-group a:link {
+	border-top: 4px solid #e5e5e5;
+}
+
+/** expand **/
+#sidebar-left ul#local-nav li ul, #sidebar-left ul#left-nav li ul, #sidebar-left ul.nav li ul  { display: none; }
+#sidebar-left ul#local-nav li.expand ul, #sidebar-left ul#left-nav li.expand ul, #sidebar-left ul.nav li.expand ul  { display: block; }
+
+/** second level nav **/
+#sidebar-left ul#local-nav li.expand ul li, #sidebar-left ul#left-nav li.expand ul li, #sidebar-left ul.nav li.expand ul li  { background: #fff; }
+#sidebar-left ul#local-nav li.expand a, #sidebar-left ul#left-nav li.expand a, #sidebar-left ul.nav li.expand a  { border-bottom: 1px solid #e5e5e5; }
+
+#sidebar-left ul#local-nav li.expand ul li a
+, #sidebar-left ul#local-nav li.expand ul li a:link
+, #sidebar-left ul#local-nav li.expand ul li a:visited
+, #sidebar-left ul#left-nav li.expand ul li a
+, #sidebar-left ul#left-nav li.expand ul li a:link
+, #sidebar-left ul#left-nav li.expand ul li a:visited
+, #sidebar-left ul.nav li.expand ul li a
+, #sidebar-left ul.nav li.expand ul li a:link
+, #sidebar-left ul.nav li.expand ul li a:visited {
+	display: block;
+	margin: 0;
+	padding: 0.6em 20px 0.6em 20px;
+	width: 180px;
+	border-bottom: 1px solid #e5e5e5;
+	line-height: 1;
+	text-decoration: none;
+	color: #695d54;
+}
+
+#sidebar-left ul#local-nav li.expand ul li a:hover
+, #sidebar-left ul#left-nav li.expand ul li a:hover
+, #sidebar-left ul.nav li.expand ul li a:hover {
+	text-decoration: underline;
+}
+
+/** theme based **/
+
+/* theme-01 */
+.theme-01 #sidebar-left ul#local-nav li a
+, .theme-01 #sidebar-left ul#local-nav li a:link
+, .theme-01 #sidebar-left ul#local-nav li a:visited
+, .theme-01 #sidebar-left ul#local-nav li.expand ul li a
+, .theme-01 #sidebar-left ul#local-nav li.expand ul li a:link
+, .theme-01 #sidebar-left ul#local-nav li.expand ul li a:visited
+, .theme-01 #sidebar-left ul#left-nav li a
+, .theme-01 #sidebar-left ul#left-nav li a:link
+, .theme-01 #sidebar-left ul#left-nav li a:visited
+, .theme-01 #sidebar-left ul#left-nav li.expand ul li a
+, .theme-01 #sidebar-left ul#left-nav li.expand ul li a:link
+, .theme-01 #sidebar-left ul#left-nav li.expand ul li a:visited
+, .theme-01 #sidebar-left ul.nav li.expand ul li a
+, .theme-01 #sidebar-left ul.nav li.expand ul li a:link
+, .theme-01 #sidebar-left ul.nav li.expand ul li a:visited {
+	background: url(../img/chevron.theme-01.png) no-repeat scroll right bottom transparent;
+}
+
+.theme-01 #sidebar-left ul#local-nav li.expand a
+, .theme-01 #sidebar-left ul#local-nav li.expand a:link
+, .theme-01 #sidebar-left ul#left-nav li.expand a
+, .theme-01 #sidebar-left ul#left-nav li.expand a:link
+, .theme-01 #sidebar-left ul.nav li.expand a
+, .theme-01 #sidebar-left ul.nav li.expand a:link {
+	background: url(../img/chevron.bottom.theme-01.png) no-repeat scroll right bottom transparent;
+}
+
+/* theme-02 */
+.theme-02 #sidebar-left ul#local-nav li a
+, .theme-02 #sidebar-left ul#local-nav li a:link
+, .theme-02 #sidebar-left ul#local-nav li a:visited
+, .theme-02 #sidebar-left ul#local-nav li.expand ul li a
+, .theme-02 #sidebar-left ul#local-nav li.expand ul li a:link
+, .theme-02 #sidebar-left ul#local-nav li.expand ul li a:visited
+, .theme-02 #sidebar-left ul#left-nav li a
+, .theme-02 #sidebar-left ul#left-nav li a:link
+, .theme-02 #sidebar-left ul#left-nav li a:visited
+, .theme-02 #sidebar-left ul#left-nav li.expand ul li a
+, .theme-02 #sidebar-left ul#left-nav li.expand ul li a:link
+, .theme-02 #sidebar-left ul#left-nav li.expand ul li a:visited
+, .theme-02 #sidebar-left ul.nav li.expand ul li a
+, .theme-02 #sidebar-left ul.nav li.expand ul li a:link
+, .theme-02 #sidebar-left ul.nav li.expand ul li a:visited {
+	background: url(../img/chevron.theme-02.png) no-repeat scroll right bottom transparent;
+}
+
+.theme-02 #sidebar-left ul#local-nav li.expand a
+, .theme-02 #sidebar-left ul#local-nav li.expand a:link
+, .theme-02 #sidebar-left ul#left-nav li.expand a
+, .theme-02 #sidebar-left ul#left-nav li.expand a:link
+, .theme-02 #sidebar-left ul.nav li.expand a
+, .theme-02 #sidebar-left ul.nav li.expand a:link {
+	background: url(../img/chevron.bottom.theme-02.png) no-repeat scroll right bottom transparent;
+}
+
+/* theme-03 */
+.theme-03 #sidebar-left ul#local-nav li a
+, .theme-03 #sidebar-left ul#local-nav li a:link
+, .theme-03 #sidebar-left ul#local-nav li a:visited
+, .theme-03 #sidebar-left ul#local-nav li.expand ul li a
+, .theme-03 #sidebar-left ul#local-nav li.expand ul li a:link
+, .theme-03 #sidebar-left ul#local-nav li.expand ul li a:visited
+, .theme-03 #sidebar-left ul#left-nav li a
+, .theme-03 #sidebar-left ul#left-nav li a:link
+, .theme-03 #sidebar-left ul#left-nav li a:visited
+, .theme-03 #sidebar-left ul#left-nav li.expand ul li a
+, .theme-03 #sidebar-left ul#left-nav li.expand ul li a:link
+, .theme-03 #sidebar-left ul#left-nav li.expand ul li a:visited
+, .theme-03 #sidebar-left ul.nav li.expand ul li a
+, .theme-03 #sidebar-left ul.nav li.expand ul li a:link
+, .theme-03 #sidebar-left ul.nav li.expand ul li a:visited {
+	background: url(../img/chevron.theme-03.png) no-repeat scroll right bottom transparent;
+}
+
+.theme-03 #sidebar-left ul#local-nav li.expand a
+, .theme-03 #sidebar-left ul#local-nav li.expand a:link
+, .theme-03 #sidebar-left ul#left-nav li.expand a
+, .theme-03 #sidebar-left ul#left-nav li.expand a:link
+, .theme-03 #sidebar-left ul.nav li.expand a
+, .theme-03 #sidebar-left ul.nav li.expand a:link {
+	background: url(../img/chevron.bottom.theme-03.png) no-repeat scroll right bottom transparent;
+}
+
+/* theme-04 */
+.theme-04 #sidebar-left ul#local-nav li a
+, .theme-04 #sidebar-left ul#local-nav li a:link
+, .theme-04 #sidebar-left ul#local-nav li a:visited
+, .theme-04 #sidebar-left ul#local-nav li.expand ul li a
+, .theme-04 #sidebar-left ul#local-nav li.expand ul li a:link
+, .theme-04 #sidebar-left ul#local-nav li.expand ul li a:visited
+, .theme-04 #sidebar-left ul#left-nav li a
+, .theme-04 #sidebar-left ul#left-nav li a:link
+, .theme-04 #sidebar-left ul#left-nav li a:visited
+, .theme-04 #sidebar-left ul#left-nav li.expand ul li a
+, .theme-04 #sidebar-left ul#left-nav li.expand ul li a:link
+, .theme-04 #sidebar-left ul#left-nav li.expand ul li a:visited
+, .theme-04 #sidebar-left ul.nav li.expand ul li a
+, .theme-04 #sidebar-left ul.nav li.expand ul li a:link
+, .theme-04 #sidebar-left ul.nav li.expand ul li a:visited {
+	background: url(../img/chevron.theme-04.png) no-repeat scroll right bottom transparent;
+}
+
+.theme-04 #sidebar-left ul#local-nav li.expand a
+, .theme-04 #sidebar-left ul#local-nav li.expand a:link
+, .theme-04 #sidebar-left ul#left-nav li.expand a
+, .theme-04 #sidebar-left ul#left-nav li.expand a:link
+, .theme-04 #sidebar-left ul.nav li.expand a
+, .theme-04 #sidebar-left ul.nav li.expand a:link {
+	background: url(../img/chevron.bottom.theme-04.png) no-repeat scroll right bottom transparent;
+}
+
+/* theme-05 */
+.theme-05 #sidebar-left ul#local-nav li a
+, .theme-05 #sidebar-left ul#local-nav li a:link
+, .theme-05 #sidebar-left ul#local-nav li a:visited
+, .theme-05 #sidebar-left ul#local-nav li.expand ul li a
+, .theme-05 #sidebar-left ul#local-nav li.expand ul li a:link
+, .theme-05 #sidebar-left ul#local-nav li.expand ul li a:visited
+, .theme-05 #sidebar-left ul#left-nav li a
+, .theme-05 #sidebar-left ul#left-nav li a:link
+, .theme-05 #sidebar-left ul#left-nav li a:visited
+, .theme-05 #sidebar-left ul#left-nav li.expand ul li a
+, .theme-05 #sidebar-left ul#left-nav li.expand ul li a:link
+, .theme-05 #sidebar-left ul#left-nav li.expand ul li a:visited
+, .theme-05 #sidebar-left ul.nav li.expand ul li a
+, .theme-05 #sidebar-left ul.nav li.expand ul li a:link
+, .theme-05 #sidebar-left ul.nav li.expand ul li a:visited {
+	background: url(../img/chevron.theme-05.png) no-repeat scroll right bottom transparent;
+}
+
+.theme-05 #sidebar-left ul#local-nav li.expand a
+, .theme-05 #sidebar-left ul#local-nav li.expand a:link
+, .theme-05 #sidebar-left ul#left-nav li.expand a
+, .theme-05 #sidebar-left ul#left-nav li.expand a:link
+, .theme-05 #sidebar-left ul.nav li.expand a
+, .theme-05 #sidebar-left ul.nav li.expand a:link {
+	background: url(../img/chevron.bottom.theme-05.png) no-repeat scroll right bottom transparent;
+}
+
+/* theme-06 */
+.theme-06 #sidebar-left ul#local-nav li a
+, .theme-06 #sidebar-left ul#local-nav li a:link
+, .theme-06 #sidebar-left ul#local-nav li a:visited
+, .theme-06 #sidebar-left ul#local-nav li.expand ul li a
+, .theme-06 #sidebar-left ul#local-nav li.expand ul li a:link
+, .theme-06 #sidebar-left ul#local-nav li.expand ul li a:visited
+, .theme-06 #sidebar-left ul#left-nav li a
+, .theme-06 #sidebar-left ul#left-nav li a:link
+, .theme-06 #sidebar-left ul#left-nav li a:visited
+, .theme-06 #sidebar-left ul#left-nav li.expand ul li a
+, .theme-06 #sidebar-left ul#left-nav li.expand ul li a:link
+, .theme-06 #sidebar-left ul#left-nav li.expand ul li a:visited
+, .theme-06 #sidebar-left ul.nav li.expand ul li a
+, .theme-06 #sidebar-left ul.nav li.expand ul li a:link
+, .theme-06 #sidebar-left ul.nav li.expand ul li a:visited {
+	background: url(../img/chevron.theme-06.png) no-repeat scroll right bottom transparent;
+}
+
+.theme-06 #sidebar-left ul#local-nav li.expand a
+, .theme-06 #sidebar-left ul#local-nav li.expand a:link
+, .theme-06 #sidebar-left ul#left-nav li.expand a
+, .theme-06 #sidebar-left ul#left-nav li.expand a:link
+, .theme-06 #sidebar-left ul.nav li.expand a
+, .theme-06 #sidebar-left ul.nav li.expand a:link {
+	background: url(../img/chevron.bottom.theme-06.png) no-repeat scroll right bottom transparent;
+}
+
+/* theme-07 */
+.theme-07 #sidebar-left ul#local-nav li a
+, .theme-07 #sidebar-left ul#local-nav li a:link
+, .theme-07 #sidebar-left ul#local-nav li a:visited
+, .theme-07 #sidebar-left ul#local-nav li.expand ul li a
+, .theme-07 #sidebar-left ul#local-nav li.expand ul li a:link
+, .theme-07 #sidebar-left ul#local-nav li.expand ul li a:visited
+, .theme-07 #sidebar-left ul#left-nav li a
+, .theme-07 #sidebar-left ul#left-nav li a:link
+, .theme-07 #sidebar-left ul#left-nav li a:visited
+, .theme-07 #sidebar-left ul#left-nav li.expand ul li a
+, .theme-07 #sidebar-left ul#left-nav li.expand ul li a:link
+, .theme-07 #sidebar-left ul#left-nav li.expand ul li a:visited
+, .theme-07 #sidebar-left ul.nav li.expand ul li a
+, .theme-07 #sidebar-left ul.nav li.expand ul li a:link
+, .theme-07 #sidebar-left ul.nav li.expand ul li a:visited {
+	background: url(../img/chevron.theme-07.png) no-repeat scroll right bottom transparent;
+}
+
+.theme-07 #sidebar-left ul#local-nav li.expand a
+, .theme-07 #sidebar-left ul#local-nav li.expand a:link
+, .theme-07 #sidebar-left ul#left-nav li.expand a
+, .theme-07 #sidebar-left ul#left-nav li.expand a:link
+, .theme-07 #sidebar-left ul.nav li.expand a
+, .theme-07 #sidebar-left ul.nav li.expand a:link {
+	background: url(../img/chevron.bottom.theme-07.png) no-repeat scroll right bottom transparent;
+}
+
+/* theme-08 */
+.theme-08 #sidebar-left ul#local-nav li a
+, .theme-08 #sidebar-left ul#local-nav li a:link
+, .theme-08 #sidebar-left ul#local-nav li a:visited
+, .theme-08 #sidebar-left ul#local-nav li.expand ul li a
+, .theme-08 #sidebar-left ul#local-nav li.expand ul li a:link
+, .theme-08 #sidebar-left ul#local-nav li.expand ul li a:visited
+, .theme-08 #sidebar-left ul#left-nav li a
+, .theme-08 #sidebar-left ul#left-nav li a:link
+, .theme-08 #sidebar-left ul#left-nav li a:visited
+, .theme-08 #sidebar-left ul#left-nav li.expand ul li a
+, .theme-08 #sidebar-left ul#left-nav li.expand ul li a:link
+, .theme-08 #sidebar-left ul#left-nav li.expand ul li a:visited
+, .theme-08 #sidebar-left ul.nav li.expand ul li a
+, .theme-08 #sidebar-left ul.nav li.expand ul li a:link
+, .theme-08 #sidebar-left ul.nav li.expand ul li a:visited {
+	background: url(../img/chevron.theme-08.png) no-repeat scroll right bottom transparent;
+}
+
+.theme-08 #sidebar-left ul#local-nav li.expand a
+, .theme-08 #sidebar-left ul#local-nav li.expand a:link
+, .theme-08 #sidebar-left ul#left-nav li.expand a
+, .theme-08 #sidebar-left ul#left-nav li.expand a:link
+, .theme-08 #sidebar-left ul.nav li.expand a
+, .theme-08 #sidebar-left ul.nav li.expand a:link {
+	background: url(../img/chevron.bottom.theme-08.png) no-repeat scroll right bottom transparent;
+}
+
+/* theme-09 */
+.theme-09 #sidebar-left ul#local-nav li a
+, .theme-09 #sidebar-left ul#local-nav li a:link
+, .theme-09 #sidebar-left ul#local-nav li a:visited
+, .theme-09 #sidebar-left ul#local-nav li.expand ul li a
+, .theme-09 #sidebar-left ul#local-nav li.expand ul li a:link
+, .theme-09 #sidebar-left ul#local-nav li.expand ul li a:visited
+, .theme-09 #sidebar-left ul#left-nav li a
+, .theme-09 #sidebar-left ul#left-nav li a:link
+, .theme-09 #sidebar-left ul#left-nav li a:visited
+, .theme-09 #sidebar-left ul#left-nav li.expand ul li a
+, .theme-09 #sidebar-left ul#left-nav li.expand ul li a:link
+, .theme-09 #sidebar-left ul#left-nav li.expand ul li a:visited
+, .theme-09 #sidebar-left ul.nav li.expand ul li a
+, .theme-09 #sidebar-left ul.nav li.expand ul li a:link
+, .theme-09 #sidebar-left ul.nav li.expand ul li a:visited {
+	background: url(../img/chevron.theme-09.png) no-repeat scroll right bottom transparent;
+}
+
+.theme-09 #sidebar-left ul#local-nav li.expand a
+, .theme-09 #sidebar-left ul#local-nav li.expand a:link
+, .theme-09 #sidebar-left ul#left-nav li.expand a
+, .theme-09 #sidebar-left ul#left-nav li.expand a:link
+, .theme-09 #sidebar-left ul.nav li.expand a
+, .theme-09 #sidebar-left ul.nav li.expand a:link {
+	background: url(../img/chevron.bottom.theme-09.png) no-repeat scroll right bottom transparent;
+}
+
+/* theme-10 */
+.theme-10 #sidebar-left ul#local-nav li a
+, .theme-10 #sidebar-left ul#local-nav li a:link
+, .theme-10 #sidebar-left ul#local-nav li a:visited
+, .theme-10 #sidebar-left ul#local-nav li.expand ul li a
+, .theme-10 #sidebar-left ul#local-nav li.expand ul li a:link
+, .theme-10 #sidebar-left ul#local-nav li.expand ul li a:visited
+, .theme-10 #sidebar-left ul#left-nav li a
+, .theme-10 #sidebar-left ul#left-nav li a:link
+, .theme-10 #sidebar-left ul#left-nav li a:visited
+, .theme-10 #sidebar-left ul#left-nav li.expand ul li a
+, .theme-10 #sidebar-left ul#left-nav li.expand ul li a:link
+, .theme-10 #sidebar-left ul#left-nav li.expand ul li a:visited
+, .theme-10 #sidebar-left ul.nav li.expand ul li a
+, .theme-10 #sidebar-left ul.nav li.expand ul li a:link
+, .theme-10 #sidebar-left ul.nav li.expand ul li a:visited {
+	background: url(../img/chevron.theme-10.png) no-repeat scroll right bottom transparent;
+}
+
+.theme-10 #sidebar-left ul#local-nav li.expand a
+, .theme-10 #sidebar-left ul#local-nav li.expand a:link
+, .theme-10 #sidebar-left ul#left-nav li.expand a
+, .theme-10 #sidebar-left ul#left-nav li.expand a:link
+, .theme-10 #sidebar-left ul.nav li.expand a
+, .theme-10 #sidebar-left ul.nav li.expand a:link {
+	background: url(../img/chevron.bottom.theme-10.png) no-repeat scroll right bottom transparent;
+}

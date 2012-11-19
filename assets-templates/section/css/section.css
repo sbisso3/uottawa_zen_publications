@@ -1,0 +1,143 @@
+/* section links */
+.section .title
+, .section h2
+, .section h2 a
+, .section h2 a:link
+, .section h2 a:visited {
+	font-size:14px;
+	font-weight:bold;
+	color:#fff;
+	height:23px;
+	line-height:1;
+	padding:10px 36px 0 10px;
+	position:relative;
+	margin-bottom:10px;
+	text-decoration:none;
+	outline:none;
+}
+/* when title is in div for rss icon */
+.section .title h2 { margin: 0; }
+
+.section h2 a
+, .section h2 a:link
+, .section h2 a:visited {
+	padding-right: .8em;
+	padding-left: 0;
+	background-color: transparent;
+	background: url(../img/sprite-light.png) no-repeat bottom right;
+}
+
+.section.quiet h2 a
+, .section.quiet h2 a:link
+, .section.quiet h2 a:visited {
+	background: url(../img/sprite-dark.png) no-repeat bottom right;
+}
+
+.section h2 a:hover {
+	text-decoration: underline;
+}
+
+.section h2 {
+	padding:0;
+}
+
+.section h3 {
+	font-size:1em;
+	font-weight:bold;
+}
+
+
+.section .rss {
+	text-indent:-10000px;
+	background: url(../img/elements.jpg) no-repeat center center;
+	position:absolute;
+	right:10px;
+	display:block;
+	width:16px;
+	height:16px;
+	top:8px;
+	line-height:0px;
+}
+
+.two-lines .title {
+	height:38px;
+	line-height:1;
+}
+
+.theme-01 #main-content .categorized-links h3
+, .theme-02 #main-content .categorized-links h3
+, .theme-03 #main-content .categorized-links h3
+, .theme-04 #main-content .categorized-links h3
+, .theme-05 #main-content .categorized-links h3
+, .theme-06 #main-content .categorized-links h3
+, .theme-07 #main-content .categorized-links h3
+, .theme-08 #main-content .categorized-links h3
+, .theme-09 #main-content .categorized-links h3
+, .theme-10 #main-content .categorized-links h3 {
+  color:#333;
+  text-transform: uppercase;
+}
+
+
+/** level-2 **/
+
+.section.quiet .title
+, .section.quiet h2
+, .section.quiet h2 a
+, .section.quiet h2 a:link
+, .section.quiet h2 a:visited{
+	outline:none;
+	color: #695d54;
+}
+
+/** theme dependant **/
+
+/* theme-01 */
+.theme-01 .section .title {	background-color: #741026; }
+.theme-01 .section.quiet .title {	background-color:#c7c0b9; }
+.theme-01 .section h3 {	color:#741026; }
+
+/* theme-02 */
+.theme-02 .section .title {	background-color: #d5a737; }
+.theme-02 .section.quiet .title {	background-color:#c7c0b9; }
+.theme-02 .section h3 {	color:#d5a737; }
+
+/* theme-03 */
+.theme-03 .section .title { background-color: #90ab5a; }
+.theme-03 .section.quiet .title {	background-color:#c7c0b9; }
+.theme-03 .section h3 {	color:#90ab5a; }
+
+/* theme-04 */
+.theme-04 .section .title {	background-color:#3887b0; }
+.theme-04 .section.quiet .title {	background-color:#c7c0b9; }
+.theme-04 .section h3 {	color:#3887b0; }
+
+/* theme-05 */
+.theme-05 .section .title {	background-color:#da8439; }
+.theme-05 .section.quiet .title {	background-color:#c7c0b9; }
+.theme-05 .section h3 {	color:#da8439; }
+
+/* theme-06 */
+.theme-06 .section .title {	background-color:#447646; }
+.theme-06 .section.quiet .title {	background-color:#c7c0b9; }
+.theme-06 .section h3 {	color:#447646; }
+
+/* theme-07 */
+.theme-07 .section .title {	background-color:#326f88; }
+.theme-07 .section.quiet .title {	background-color:#c7c0b9; }
+.theme-07 .section h3 {	color:#326f88; }
+
+/* theme-08 */
+.theme-08 .section .title {	background-color:#a5591d; }
+.theme-08 .section.quiet .title {	background-color:#c7c0b9; }
+.theme-08 .section h3 {	color:#a5591d; }
+
+/* theme-09 */
+.theme-09 .section .title {	background-color:#87944a; }
+.theme-09 .section.quiet .title {	background-color:#c7c0b9; }
+.theme-09 .section h3 {	color:#87944a; }
+
+/* theme-10 */
+.theme-10 .section .title {	background-color:#5e2f24; }
+.theme-10 .section.quiet .title {	background-color:#c7c0b9; }
+.theme-10 .section h3 {	color:#5e2f24; }

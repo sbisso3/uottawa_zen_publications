@@ -1,0 +1,21 @@
+/*---Undergraduate Programs---*/
+
+div.item-list {
+	width: 33%;
+	float: left;
+}
+
+div.view-arts-programs h3 {
+	width: 100%;
+}
+
+div.view-arts-programs   ul  li.views-row {
+	background: none;
+}
+
+/*---Joint Honours BA Programs---*/
+
+div.view-joint-honours-ba-programs  ul li.views-row {
+	background: none;	
+}
+

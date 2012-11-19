@@ -1,0 +1,79 @@
+div#phoenix-left .view-research-news-view {
+	margin: 0;
+	margin-left: -20px;
+}
+
+div#phoenix-left .pane-research-news-view  h2 {
+	margin-bottom: -3px;
+	margin-left: 26px;
+}
+/*
+.view-research-news-view  h2.node-title {
+	visibility: hidden;
+	height: 0;
+}*/
+/*
+.view-research-news-view  div.form-type-item  {
+	visibility: hidden;
+	height: 0;
+}*/
+/*
+.view-research-news-view  article {
+	margin: 0px;
+	padding: 0px;
+	height: 53px;
+}*/
+/*
+.view-research-news-view  header {
+	visibility: hidden;
+	height: 0;
+}*/
+
+.view-research-news-view  p {
+	font-size: 8.5pt;
+	color: #72634D;
+	text-decoration: none;
+	background: url(../images/bullet-arrow.png) no-repeat;
+	background-position: 0 .3em;
+	padding-left: 20px;
+	display: block;
+}
+
+.view-research-news-view  p  span {
+	color: #8F001A;
+	font-weight: bold;
+}
+
+.pane-research-news-view  .view-research-news-view a:link {
+	color: #72634D;
+	text-decoration: none;
+}
+
+/*
+.pane-research-news-view  .view-research-news-view a:hover {
+	color: #666;
+}*/
+
+.view-research-news-view div.more-link {
+	float: left;
+	margin-left: 50px;
+	margin-top: 40px;
+}
+
+.view-research-news-view  div.more-link a:link {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+	border: 1px solid #8F001A;
+	background-color: #8F001A;
+	text-decoration: none;
+	color: #fff;
+}
+
+.view-research-news-view div.more-link a:hover{
+	border: 1px solid #72634D;
+	background-color: #72634D;
+	text-decoration: none;
+	color: #fff;
+}

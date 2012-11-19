@@ -1,0 +1,129 @@
+@font-face {
+  font-family: Vegur;
+  src: url('Vegur-Regular.otf');
+}
+
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, code, del, dfn, em, img, q, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, dialog, figure, footer, header, hgroup, nav, section {
+  vertical-align:top;
+}
+
+body {
+  background: none;
+}
+
+#main-secondarynav a#ch-lang-url {
+  color: #72634D;
+  width: auto;
+  background-color: #FBFBFA;
+  border: 1px solid #BCB6B0;
+  font-size: 1.0em;
+  padding: 2px 3px 2px 3px;
+  text-decoration: none;
+  font-weight: bold;
+  height: auto;
+  text-indent: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 2px;
+  margin-left: 5px;
+}
+#main-secondarynav li:last-child {
+  background: none;
+}
+#main-secondarynav a#ch-lang-url:hover {
+  color: #FFF;
+  background-color: #741026;
+}
+#global-header #main-banner #global-site-search #global-site-search-words {
+  padding-top: 1px;
+  padding-bottom: 1px;
+  padding-left: 6px;
+}
+#global-site-search input#global-site-search-submit {
+  border-radius: 0px;
+  margin-top: 1px;
+  height: 24px;
+}
+#overlay-container {
+  z-index: 9999;
+}
+#admin-menu {
+  z-index: 10000;
+}
+#site-id {
+  height: 75px;
+  width: 970px;
+  position: relative;
+}
+
+#site-id h1 {
+  text-decoration: none;
+  border: none;
+  position: absolute;
+  top: 16px;
+  left: 21px;
+  font-size: 36px;
+  font-family: Vegur;
+  text-indent: 0px;
+  line-height: normal;
+}
+#section-top {
+  margin-top: 0px;
+  margin-left: 0px;
+}
+
+#site-nav {
+  width: 100%;
+  position: relative;
+  height: 70px;
+}
+
+#site-nav ul.menu {
+  width: 100%;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  height: 25px;
+  border-bottom-style: solid;
+  border-bottom-width: 5px;
+  border-bottom-color: #000;
+}
+#site-nav ul.menu ul.menu {
+  height: 29px;
+  top: 31px;
+  background-color: #666;
+  color: #FFF;
+  padding-top: 8px;
+  border-style: none;
+}
+
+#page-container #box-container #site-nav ul.menu li > ul {
+  display: none;
+}
+
+#page-container #box-container #site-nav ul.menu li {
+  float: left;
+  background: none;
+  text-align: left;
+  padding-right: 20px;
+}
+
+#page-container #box-container #site-nav ul.menu li.first {
+  padding-left: 35px;
+}
+#page-container #box-container #site-nav ul.menu ul.menu li.first {
+  padding-left: 45px;
+}
+#page-container #box-container #site-nav ul.menu li a {
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 13px;
+  color: #000;
+}
+#page-container #box-container #site-nav ul.menu ul.menu li a {
+  font-size: 12px;
+  color: #FFF;
+  font-weight: normal;
+}
+#main-siteinfo {
+  margin:0;
+}

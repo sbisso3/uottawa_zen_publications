@@ -1,0 +1,32 @@
+/*
+article.node-research-article {
+	position: relative;
+}*/
+
+article.node-research-article header {
+	width: 60%;
+}
+
+article.node-research-article div.field-name-field-image.field-type-image {
+	float: right;
+	margin-top: -84px;
+	margin-right: 0px;
+}
+
+article.node-research-article div.field-name-field-image.field-type-image img {
+	margin-right: 0px;
+}
+
+article.node-research-article blockquote {
+	border: 0;
+	background-color: #fff;
+	padding: 0;
+}
+
+article.node-research-article blockquote p{
+	text-align: center;
+	font-size: 140%;
+	font-style: normal;
+	font-family: verdana, sans-serif;
+	color: #176ca7;
+}

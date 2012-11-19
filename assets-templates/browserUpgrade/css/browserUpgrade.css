@@ -1,0 +1,17 @@
+#browser-upgrade {
+	clear: both;
+	position: relative;
+	width: 900px;
+	min-height: 56px;
+	left: -10px;
+	margin: 0;
+	padding: 0 0 0 70px; 
+	background: #f4f3f1 url('../img/warning.png') no-repeat left top;
+	background-color: #f4f3f1;
+}
+
+#browser-upgrade p {
+	margin: 0;
+	padding: 0.5em;
+	font-size: 1.25em;
+}

@@ -1,0 +1,134 @@
+div#middle-left {
+	margin-bottom: 20px;
+}
+
+ul.top-task-boxes {
+	list-style: none;
+	background: none;
+}
+
+ul.top-task-boxes li {
+	background: none;
+	padding-left: 0;
+	float: left;
+	margin-left: 20px;
+}
+
+ul.top-task-boxes li.first {
+	margin-left: 0px;
+}
+
+a.top-task-box {
+	z-index: 0;
+    display:block;
+    position:relative;
+    text-decoration:none;
+    color:#fff;
+    height:230px;
+    width:230px;
+    overflow:hidden;
+	margin:0px;
+	padding: 0px;
+}
+
+a.top-task-box img{
+    position:absolute;
+    z-index:-100;
+	margin: 0px;
+	padding :0px;
+	height: 230px;
+	width: 230px;
+}
+
+a.top-task-box h2{
+    position:absolute;
+    background-image:url("../images/arrow.png");
+    background-repeat:no-repeat;
+    background-position:top left;
+    top:24px;
+    height:44px;
+    width:180px;
+	/*padding:4px 40px 5px 10px;*/
+	padding:7px 40px 2px 10px;
+    font-weight:normal;
+    font-size:18px;
+	color: #FFF;
+}
+
+a.top-task-box p{
+    z-index:-10;
+    height:120px;
+    width:210px;
+    padding:330px 10px 10px 10px;
+    margin:0;
+    background:rgba(0,0,0,0);
+}
+
+a.top-task-box:hover h2{
+    background-position:bottom left;
+    color:black;
+    animation: headerFadeIn 0.25s;
+    -moz-animation: headerFadeIn 0.25s; /* Firefox */
+    -webkit-animation: headerFadeIn 0.25s; /* Safari and Chrome */
+    -o-animation: headerFadeIn 0.25s; /* Opera */
+}
+
+a.top-task-box:hover p{
+    animation: pFadeUp 0.25s;
+    -moz-animation: pFadeUp 0.25s; /* Firefox */
+    -webkit-animation: pFadeUp 0.25s; /* Safari and Chrome */
+    -o-animation: pFadeUp 0.25s; /* Opera */
+    padding-top:100px;
+    background-color:rgba(0,0,0,0.75);
+    display:block;    
+}
+
+/* Animation headerFadeIn*/
+@keyframes headerFadeIn
+{
+    from {opacity:0.25;}
+    to {opacity:1.0;}
+}
+
+@-moz-keyframes headerFadeIn /* Firefox */
+{
+    from {opacity:0.25;}
+    to {opacity:1.0;}
+}
+
+@-webkit-keyframes headerFadeIn /* Safari and Chrome */
+{
+    from {opacity:0.25;}
+    to {opacity:1.0;}
+}
+
+@-o-keyframes headerFadeIn /* Opera */
+{
+    from {opacity:0.25;}
+    to {opacity:1.0;}
+}
+
+/* Animation pFadeUp */
+@keyframes pFadeUp
+{
+    from {background-color:rgba(0,0,0,0);padding-top:330px;}
+    to {background-color:rgba(0,0,0,0.75);padding-top:100px;}
+}
+
+@-moz-keyframes pFadeUp /* Firefox */
+{
+    from {background-color:rgba(0,0,0,0);padding-top:330px;}
+    to {background-color:rgba(0,0,0,0.75);padding-top:100px;}
+}
+
+@-webkit-keyframes pFadeUp /* Safari and Chrome */
+{
+    from {background-color:rgba(0,0,0,0);padding-top:330px;}
+    to {background-color:rgba(0,0,0,0.75);padding-top:100px;}
+}
+
+@-o-keyframes pFadeUp /* Opera */
+{
+    from {background-color:rgba(0,0,0,0);padding-top:330px;}
+    to {background-color:rgba(0,0,0,0.75);padding-top:100px;}
+}

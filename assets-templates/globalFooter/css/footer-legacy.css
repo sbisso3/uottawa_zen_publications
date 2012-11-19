@@ -1,0 +1,97 @@
+/* 
+ * Is potentially overridden by "siteFooter". 
+ * Check "siteFooter" module if you modify the 
+ * vertical padding of #main-siteinfo.
+ */
+#main-siteinfo {
+	margin-left:-10px;
+	padding: 65px 10px 10px;
+	width:950px;
+	background-position: left 30px;
+	background-repeat: no-repeat;
+	display:block;
+	clear:both;
+}
+ul#main-footerglobalnav li, ul#main-siteinfonav li  {
+	background:none;
+	padding:0;
+	margin:0;
+	border-right:1px solid #CCCCCC;
+	float:left;
+	list-style:none outside none;
+	margin-right:0.5em;
+	padding-right:0.6em;
+}
+
+ul#main-footerglobalnav li.last, ul#main-siteinfonav li.last {
+	border-right: none;
+	padding-right: 0;
+	margin-right: 0;
+}
+
+ul#main-footerglobalnav li.right, ul#main-siteinfonav li.right {
+	float: right;
+}
+
+#main-statements  {
+	clear:left;
+	padding-top: 0.5em;
+}
+
+/* fix the banner right margin */
+ul#main-siteinfonav
+, ol#main-siteinfonav {
+	margin-right: 0;
+}
+
+/** Theme dependant **/
+
+/* theme-01 */
+.theme-01 #main-siteinfo{
+	background-image:url(../img/footer.curve.theme-01.png);
+}
+
+/* theme-02 */
+.theme-02 #main-siteinfo{
+	background-image:url(../img/footer.curve.theme-02.png);
+}
+
+/* theme-03 */
+.theme-03 #main-siteinfo{
+	background-image:url(../img/footer.curve.theme-03.png);
+}
+
+/* theme-04 */
+.theme-04 #main-siteinfo{
+	background-image:url(../img/footer.curve.theme-04.png);
+}
+
+/* theme-05 */
+.theme-05 #main-siteinfo{
+	background-image:url(../img/footer.curve.theme-05.png);
+}
+
+/* theme-06 */
+.theme-06 #main-siteinfo{
+	background-image:url(../img/footer.curve.theme-06.png);
+}
+
+/* theme-07 */
+.theme-07 #main-siteinfo{
+	background-image:url(../img/footer.curve.theme-07.png);
+}
+
+/* theme-08 */
+.theme-08 #main-siteinfo{
+	background-image:url(../img/footer.curve.theme-08.png);
+}
+
+/* theme-09 */
+.theme-09 #main-siteinfo{
+	background-image:url(../img/footer.curve.theme-09.png);
+}
+
+/* theme-10 */
+.theme-10 #main-siteinfo{
+	background-image:url(../img/footer.curve.theme-10.png);
+}

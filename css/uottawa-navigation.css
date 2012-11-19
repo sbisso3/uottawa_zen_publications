@@ -1,0 +1,111 @@
+/**
+ * @file
+ * Navigation Styling
+ */
+
+@import "base";
+
+/* 
+ * Color profile settings
+ */
+#site-nav ul.menu {
+  border-bottom-color: #8F001A;
+}
+#page-container #box-container #site-nav ul.menu li a {
+  color: #72634D;
+}
+#page-container #box-container #site-nav ul.menu li.active-trail a {
+  background-color: #8F001A;
+  color: #fff;
+  padding-top: 2px;
+  padding-bottom: 16px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+#page-container #box-container #site-nav ul.menu li.active-trail ul.menu a {
+  padding-bottom: 12px;
+}
+
+/*
+ * General uOttawa nav styles
+ */
+ 
+#site-nav {
+  width: 100%;
+  position: relative;
+  height: 60px;
+  font-size: 90%;
+  font-family: Verdana;
+  font-weight: bold;
+}
+
+#page-container #box-container #site-nav ul.menu {
+  width: 100%;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  height: 25px;
+  border-bottom-style: solid;
+  border-bottom-width: 5px;
+}
+#page-container #box-container #site-nav ul.menu ul.menu {
+  height: 26px;
+  top: 31px;
+  background-color: #8F001A;
+  color: #FFF;
+  padding-top: 4px;
+  border-style: none;
+  border-bottom: none;
+  font-size: 80%;
+}
+
+#page-container #box-container #site-nav ul.menu li > ul {
+  display: none;
+}
+
+#page-container #box-container #site-nav ul.menu li.active-trail > ul {
+  /*display: none;*/
+  display: block;
+  background-color: #8F001A;
+  color: #fff;
+}
+
+#page-container #box-container #site-nav ul.menu li.active-trail ul {
+  padding-bottom: 4px;
+}
+
+#page-container #box-container #site-nav ul.menu li {
+  float: left;
+  background: none;
+  text-align: left;
+  padding-right: 1em;
+}
+
+#page-container #box-container #site-nav ul.menu li.first {
+  padding-left: 2em;
+}
+#page-container #box-container #site-nav ul.menu ul.menu li.first {
+  padding-left: 1em;
+}
+
+#page-container #box-container #site-nav ul.menu ul.menu li > ul {
+  display: none;
+}
+
+#page-container #box-container #site-nav ul.menu ul.menu li {
+  padding-left: 2px;
+  padding-right: 0;
+}
+
+#page-container #box-container #site-nav ul.menu li a {
+  text-decoration: none;
+/*  font-weight: bold;*/
+/*  font-size: 13px;*/
+/*  color: #000; */
+}
+#page-container #box-container #site-nav ul.menu ul.menu li a {
+  color: #FFF;
+  font-weight: bold;
+}
+

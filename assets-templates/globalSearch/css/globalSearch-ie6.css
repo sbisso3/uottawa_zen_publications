@@ -1,0 +1,19 @@
+/**
+ * GlobalSearch-ie6.css
+ * module globalSearch
+ * IE6 fixes
+ */
+
+#main-banner #global-site-search {
+	width: 187px;
+	right: 11px;
+	top: 4px;
+}
+#main-banner #global-site-search #global-site-search-submit {
+	top: 1px;
+	font-size: 0;
+	line-height: 0;
+}
+#main-banner #global-site-search #global-site-search-hint {
+	left: 4px;
+}

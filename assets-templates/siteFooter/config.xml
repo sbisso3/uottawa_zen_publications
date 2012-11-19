@@ -1,0 +1,51 @@
+<!--
+  Please check you use UNIX (LF) Line break before editing this file
+  Please read documentation in the wiki
+-->
+<config>
+  <destination>
+    <dir>inc/</dir>
+    <file>head</file>
+    <ext>.html</ext>
+    <debug>-debug</debug>
+    <xhtml>true</xhtml>
+    <xhtmlname>-xhtml</xhtmlname>
+  </destination>
+
+  <!-- Module -->
+  <tag>
+    <name>link</name>
+    <destination>head</destination>
+    <output>style.css</output>
+    <prefix></prefix>
+    <suffix></suffix>
+    <attributes>
+      <rel>stylesheet</rel>
+      <type>text/css</type>
+      <media>screen, projection, print</media>
+    </attributes>
+    <value></value>
+    <source>
+      <file>css/siteFooter.css</file>
+    </source>
+  </tag>
+  
+  <!-- IE7 -->
+  <tag>
+    <name>link</name>
+    <destination>head</destination>
+    <output>style-ie7.css</output>
+    <prefix><![CDATA[<!--[if lt IE 8]>]]></prefix>
+    <suffix><![CDATA[<![endif]-->]]></suffix>
+    <attributes>
+      <rel>stylesheet</rel>
+      <type>text/css</type>
+      <media>screen, projection, print</media>
+    </attributes>
+    <value></value>
+    <source>
+      <file>css/siteFooter-ie7.css</file>
+    </source>
+  </tag>
+  
+</config>

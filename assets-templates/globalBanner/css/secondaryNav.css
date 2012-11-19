@@ -1,0 +1,193 @@
+/**
+ * Secondary Navigation
+ */
+
+#main-secondarynav {
+	position: absolute;
+	top: 44px;
+	right: 80px;
+}
+
+#main-secondarynav li {
+	list-style: none;
+	float: left;
+	background: url(../img/separator.png) no-repeat;
+	background-position: 0 6px;
+	font-family: Arial, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	padding-left: 1px;
+	line-height: 1em;
+}
+
+#main-secondarynav li.first { background: none; }
+
+#main-secondarynav li a
+, #main-secondarynav li h2 {
+	font-size: 11px;
+	display: block;
+	text-decoration: none;
+	cursor: pointer;
+	color: #72634d;
+	text-indent: 2px;
+	font-weight: normal;
+	padding: 5px 0.5em 0;
+	margin: 0;
+}
+
+#main-secondarynav li a:hover
+, #main-secondarynav li a:focus
+, #main-secondarynav li a:active
+, #page-links a#ch-lang-url:hover
+, #page-links a#ch-lang-url:focus
+, #page-links a#ch-lang-url:active
+, #main-secondarynav li span:hover
+, #main-secondarynav li span:focus
+, #main-secondarynav li span:active
+, #main-secondarynav li h2:hover
+, #main-secondarynav li h2:focus
+, #main-secondarynav li h2:active
+, #main-secondarynav li h2.active {
+	text-decoration: underline;
+	outline: none;
+}
+
+/**
+ * Second level Navigation (QuickPicks)
+ */
+#main-secondarynav li h2 {
+	background: url(../img/dropdown-arrow-down.png) no-repeat scroll right 7px transparent;
+	padding-right: 10px;
+	top: 2px;
+	line-height: 1em;
+	height: 10px;
+	-moz-user-select: none;
+	-khtml-user-select: none;
+}
+
+#main-secondarynav li ul {
+	display: none;
+	position:absolute;
+	top: 25px;
+	right: -5px;
+	width: 145px;
+    padding: 4px 0;
+	margin: 0;
+    background-color: #fff;
+	z-index: 1000;
+	border: 1px solid #cac3bc;
+	-webkit-box-shadow: rgba(0, 0, 0, 0.3) 0px 1px 10px;
+	-moz-box-shadow: rgba(0, 0, 0, 0.3) 0px 1px 10px;
+	box-shadow: rgba(0, 0, 0, 0.3) 0px 1px 10px;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	-webkit-background-clip: padding-box; /* see http://tumble.sneak.co.nz/post/928998513/fixing-the-background-bleed */
+}
+
+#main-secondarynav li ul li {
+	list-style: none;
+	list-style-position: inside;
+	background-image: none;
+	text-indent: 0;
+	padding: 0;
+	margin: 0;
+	display: block;
+	text-align:left;
+	-moz-user-select: none;
+	-khtml-user-select: none;
+}
+
+#main-secondarynav li ul li.new-group {
+	margin-top: 3px;
+	padding-top: 6px;
+	background: url(../img/quickpicks-new-group.png) no-repeat top left;
+}
+
+#main-secondarynav li ul li a
+, #main-secondarynav li ul li a:link
+, #main-secondarynav li ul li a:visited {
+	margin: 0;
+	padding: 5px 10px 5px 10px;
+	display: block;
+	width: 125px;
+	text-indent: 0px;
+}
+
+#main-secondarynav li ul li a:hover
+, #main-secondarynav li ul li a:focus
+, #main-secondarynav li ul li a:active {
+	text-decoration: none;
+	background-color: #EEE;
+	cursor: pointer;
+	outline: none;
+	display: block;
+}
+
+/**
+ * page-links
+ * hidden accessible menu
+ * @todo may be removed and replaced only by ARIA
+ */
+
+/**
+ * Page links (hidden tool for accessibility - may be replaced by aria
+ * Hide the effect of the ul
+ */
+#page-links {
+	height:0px;
+	line-height:0px;
+	display:block;
+	position:relative;
+	margin: 0px auto 0px auto;
+	left:auto;
+	right:auto;
+	top:0px;
+	border:none;
+	font-size:0px;
+	z-index:4000;
+  width:100%;
+}
+
+#page-links li
+{
+	list-style: none;
+	height: 0px;
+	width: 0px;
+}
+
+/**
+ * language links
+ * placed in the page
+ * display using absolute position in the secondary navigation
+ */
+
+#page-links a#ch-lang-url
+{
+	background-color: #FBFBFA;
+	border: 1px solid #BCB6B0;
+	color: #72634D;
+	display: block;
+	font-family: inherit;
+	font-size: 11px;
+	font-weight: bold;
+	height: auto;
+	left: auto;
+	padding:2px 3px;
+	position: absolute;
+	right: 20px;
+	text-align:center;
+	text-decoration: none;
+	text-indent: 0;
+	top: 45px;
+	width: 45px;
+	line-height:14px;
+	z-index:5000;
+}
+
+#page-links a#ch-lang-url:hover
+, #page-links a#ch-lang-url:focus
+, #page-links a#ch-lang-url:active
+{
+	color: white;
+	text-decoration:none;
+}

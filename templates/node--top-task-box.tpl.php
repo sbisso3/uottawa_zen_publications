@@ -1,0 +1,1 @@
+<p><?php print t('This content type does not support the top task box template'); ?></p>
